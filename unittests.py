@@ -24,21 +24,21 @@ class Mis_tests(unittest.TestCase):
         a = 5
         b = 4+1
         #verificar a==b
-        self.assertEqual(a,b)
+        self.assertEqual(a, b)
 
     def test_verificar_no_iguales(self):
         a=10
         b=5*3
         #verificar a!=b
-        self.assertNotEqual(a,b,"a tiene que ser igual a b")
+        self.assertNotEqual(a, b, "A tiene que ser igual a B")
 
     def test_validar_si_verdadero(self):
         a = 2
-        self.assertTrue(a==2, "Esperaba un true")
+        self.assertTrue(a == 2, "Esperaba un true")
 
     def test_validar_si_falso(self):
         a = 5
-        self.assertFalse(a==2+4, "Esperaba un false")
+        self.assertFalse(a == 2+4, "Esperaba un false")
 
     def test_es_nulo(self):
         a = None
@@ -53,10 +53,51 @@ class Mis_tests(unittest.TestCase):
     def test_es(self):
         a = 5
         b = 5
-        if a is b:
+        self.assertIs(a, b, "No son iguales")
+        """if a is b:
             print("Son iguales")
         else:
-            print("No son iguales")
+            print("No son iguales")"""
+
+        """if a == b:
+            print("Son iguales")
+        else:
+            print("No son iguales")"""
+
+    def test_no_es(self):
+        a = 5
+        b = 5.00
+        self.assertIsNot(a, b, "Son iguales")
+
+    def test_texto_en(self):
+        a = "Hola"
+        b = "Hola Mundo"
+        self.assertIn(a, b, "El texto no esta incluido")
+
+    def test_texto_no_en(self):
+        a = "Hola"
+        b = "Hola Mundo"
+        self.assertNotIn(b, a, "El texto esta incluido")
+
+    def test_es_mayor(self):
+        a = 7
+        b = 5
+        self.assertGreater(a, b, "A tiene que ser mayor a B")
+
+    def test_es_mayor_igual(self):
+        a = 7
+        b = 5
+        self.assertGreaterEqual(a, b, "A tiene que ser mayor o igual a B")
+
+    def test_es_menor(self):
+        a = 3
+        b = 5
+        self.assertLess(a, b, "A tiene que ser menor a B")
+
+    def test_es_menor_igual(self):
+        a = 3
+        b = 5
+        self.assertLessEqual(a, b, "A tiene que ser menor o igual a B")
 
     def tearDown(self): #este sirve para poner postcondiciones que se ejecutan despues de cada metodo"
         print("Borrando datos...")
