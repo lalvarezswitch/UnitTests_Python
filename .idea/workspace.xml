@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36b56223-c271-461b-80d3-9c1161043cb4" name="Default Changelist" comment="" />
+    <list default="true" id="36b56223-c271-461b-80d3-9c1161043cb4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/unittests.py" beforeDir="false" afterPath="$PROJECT_DIR$/unittests.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/unittests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="277">
+              <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -27,6 +29,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -41,6 +46,7 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -59,6 +65,9 @@
         </subPane>
       </pane>
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -122,15 +131,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_unittests_Mis_tests - 2019.04.24 at 11h 55m 22s.xml">
-      <configuration name="Unittests for unittests.Mis_tests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_unittests_Mis_tests - 2019.04.24 at 11h 56m 48s.xml">
-      <configuration name="Unittests for unittests.Mis_tests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_unittests_Mis_tests - 2019.04.24 at 11h 58m 02s.xml">
-      <configuration name="Unittests for unittests.Mis_tests" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_unittests_Mis_tests - 2019.04.24 at 12h 28m 17s.xml">
       <configuration name="Unittests for unittests.Mis_tests" configurationId="tests" />
     </history-entry>
@@ -150,6 +150,15 @@
       <configuration name="Unittests for unittests.Mis_tests" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_for_unittests_Mis_tests - 2019.04.24 at 12h 31m 57s.xml">
+      <configuration name="Unittests for unittests.Mis_tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unittests_Mis_tests - 2019.04.24 at 12h 51m 57s.xml">
+      <configuration name="Unittests for unittests.Mis_tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unittests_Mis_tests - 2019.04.24 at 12h 53m 12s.xml">
+      <configuration name="Unittests for unittests.Mis_tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unittests_Mis_tests - 2019.04.24 at 12h 53m 57s.xml">
       <configuration name="Unittests for unittests.Mis_tests" configurationId="tests" />
     </history-entry>
   </component>
@@ -177,10 +186,17 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/unittests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="277">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
         </state>
       </provider>
     </entry>

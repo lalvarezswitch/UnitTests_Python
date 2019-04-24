@@ -40,6 +40,23 @@ class Mis_tests(unittest.TestCase):
         a = 5
         self.assertFalse(a==2+4, "Esperaba un false")
 
+    def test_es_nulo(self):
+        a = None
+        self.assertIsNone(a, "Se espera que a sea none")
+        #if a is None:
+        #    print("a is none")
+
+    def test_no_es_nulo(self):
+        a = 9
+        self.assertIsNotNone(a, "Se espera que a no sea none")
+
+    def test_es(self):
+        a = 5
+        b = 5
+        if a is b:
+            print("Son iguales")
+        else:
+            print("No son iguales")
 
     def tearDown(self): #este sirve para poner postcondiciones que se ejecutan despues de cada metodo"
         print("Borrando datos...")
